@@ -1,4 +1,4 @@
-# Spectacle Puppet Module for Boxen
+# Spectacle Puppet Module for Boxen [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-spectacle.png)](https://travis-ci.org/dieterdemeyer/puppet-spectacle)
 
 Install [Spectacle](http://spectacleapp.com/), a tool that allows you to easily organize your windows without using a mouse.
 
@@ -14,8 +14,5 @@ include spectacle
 
 ## Development
 
-Write code. Run one of the following tasks to test it:
-* `rake syntax`
-* `rake style`
-* `rake spec`
-* `rake build`
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
