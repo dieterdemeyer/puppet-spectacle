@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'spectacle' do
 
-  version = '0.8.1'
+  version = '0.8.2'
 
   it { should contain_class('spectacle') }
   it { should contain_package("Spectacle-#{version}").with_provider('compressed_app') }
