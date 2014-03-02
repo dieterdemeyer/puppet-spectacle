@@ -4,10 +4,10 @@
 #
 #  include spectacle
 #  class { 'spectacle':
-#    version => '0.8.2'
+#    version => '0.8.4'
 #  }
 #
-class spectacle($version='0.8.2') {
+class spectacle($version='0.8.4') {
 
   package { "Spectacle-${version}":
     provider => 'compressed_app',
